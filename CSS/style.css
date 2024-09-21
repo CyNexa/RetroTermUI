@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=VT323&display=swap');
+/* LOL */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+    background-color: rgb(41, 41, 41);
+    color: #fff;
+}
+.bs_hr {
+    border: none;
+    background-color: #09ff00;
+    height: 2px;
+    margin: 2vh 5vw;
+    filter: drop-shadow(0px 5px 5px #09ff00);
+}
+
+/* Root */
+:root {
+    --Vfont: "VT323", sans-serif;
+    --Pfont: "Press Start 2P", sans-serif;
+    --Cfont: "Courier New", Courier, monospace;
+    --Ufont: "Ubuntu", sans-serif;
+}
+
+/* Header */
+header, main, footer{
+    margin: 2vh 2vw;
+}
+header fieldset {
+    display: flex;
+    height: 8vh;
+    align-items: center;
+    border-color: #09ff00;
+}
+header fieldset legend, main  fieldset legend {
+    font-size: 1.1rem;
+    font-family: var(--Cfont);
+}
+header fieldset nav ul {
+    display: flex;
+    justify-content: space-around;
+    width: 95vw;
+    list-style-type: none;
+    padding-bottom: 10px;
+}
+header fieldset nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: var(--Vfont);
+    font-size: 2rem;
+}
+header fieldset nav ul li a:hover {
+    text-shadow: 0px 0px 10px #fff;
+}

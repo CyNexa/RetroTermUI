@@ -1,0 +1,20 @@
+/* Main */
+main fieldset {
+    border-color: #09ff00;
+}
+.home_sect1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30vh;
+}
+.home_sect1 h1 {
+    font-size: 2.5rem;
+    font-family: var(--Pfont);
+}
+.home_sect1 p {
+    font-size: 1.5rem;
+    font-family: var(--Vfont);
+    color: rgba(255, 187, 0, 0.8);
+}
